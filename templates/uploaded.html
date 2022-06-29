@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<!--<p class="text-left">{{ display_detection }} successfully uploaded.</p>/*-->
+
+<img src="{{ display_detection }}" alt="display detection">
+<p>{{ bbox }}</p>
+<p>{{ conf }}</p>
+<p>{{ cl }}</p>
+
+{% endblock %}

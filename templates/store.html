@@ -1,0 +1,20 @@
+<div class="upload-form">
+    <p class="text-left">Upload another?</p>
+    <form action="/uploader" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <input type="submit" />
+    </form>
+</div>
+</div>
+</div>
+</br>
+
+<div class="row">
+<div class="col-md-5">
+<div class="image-container">
+    <p class="text-center"><b>Detected Image</b></p>
+    <a href="/static/detections/{{display_detection}}" target="_new"><img
+            src="/static/detections/{{display_detection}}" class="upload-image-thumb"></a>
+</div>
+</div>
+</div>

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <center>
+
+        <div>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" />
+                <input type="submit" />
+            </form>
+        </div>
+
+    </center>
+{% endblock %}
